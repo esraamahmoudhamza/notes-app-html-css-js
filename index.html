@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Notes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <h2>My Notes</h2>
+      <input type="text" id="search" placeholder="Search notes...">
+      <ul id="notesList"></ul>
+      <button id="addNoteBtn" class="add-btn">+</button>
+    </aside>
+    
+    <main class="note-area">
+      <div id="emptyState" class="empty-state">
+        <p>No notes yet</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png" alt="notes illustration">
+      </div>
+
+      <div id="noteEditor" class="note-editor hidden">
+        <div id="notesHeader" class="notes-header hidden">
+          <p> You have notes!</p>
+        </div>
+        <input type="text" id="noteTitle" placeholder="Title">
+        <textarea id="noteContent" placeholder="Write your note..."></textarea>
+        <button id="saveNoteBtn">Save</button>
+        <button id="deleteNoteBtn" class="delete-btn">Delete</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
