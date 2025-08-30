@@ -28,7 +28,7 @@ Stay connected and follow for more projects & tutorials 🚀
 - 🎵 [TikTok](https://www.tiktok.com/@esraa.codes)  
 - ▶️ [YouTube](https://www.youtube.com/@EsraaCodes)  
 - 🌐 [GitHub](https://github.com/esraamahmoudhamza)
-(هنا تحطي Screenshot أو GIF للمشروع)
+
 
 ---
 
